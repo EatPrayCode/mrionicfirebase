@@ -8,13 +8,16 @@ export const apiUrl = 'assets/misc/data.json';
 
 export const firebaseConfig = {
   // This is a placeholder. Replace with real values.
-  apiKey: 'xxxxxxxxxxx',
-  authDomain: 'xxxxxxxxx-xxxxxxx-xxxxx.firebaseapp.com',
-  databaseURL: 'https://xxxxxxxxx-xxxxxxx-xxxxx.firebaseio.com',
-  storageBucket: 'xxxxxxxxx-xxxxxxx-xxxxx.appspot.com',
-  messagingSenderId: '123456789',
+  apiKey: "AIzaSyCsAES9S79l1OvbutPS34WS5yOuNlIxmjI",
+    authDomain: "monthlyrepeat-23062.firebaseapp.com",
+    databaseURL: "https://monthlyrepeat-23062.firebaseio.com",
+    projectId: "monthlyrepeat-23062",
+    storageBucket: "monthlyrepeat-23062.appspot.com",
+    messagingSenderId: "617488315989",
+    appId: "1:617488315989:web:6f9fda0e9a8abd9083c6dc",
+    measurementId: "G-SYNQFRW0EV"
 };
 
-export const DATA_SERVICE: DataServiceType = DataServiceType.http;
+export const DATA_SERVICE: DataServiceType = DataServiceType.firebase;
 
-export const appTitle = 'Conference 5';
+export const appTitle = 'monthlyrepeat.com';
